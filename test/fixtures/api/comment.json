@@ -1,0 +1,31 @@
+{
+  "url": "https://api.github.com/repos/robotland/test/issues/comments/336888903",
+  "html_url": "https://github.com/robotland/test/issues/109#issuecomment-336888903",
+  "issue_url": "https://api.github.com/repos/robotland/test/issues/109",
+  "id": 336888903,
+  "user": {
+    "login": "bkeepers",
+    "id": 173,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/173?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bkeepers",
+    "html_url": "https://github.com/bkeepers",
+    "followers_url": "https://api.github.com/users/bkeepers/followers",
+    "following_url": "https://api.github.com/users/bkeepers/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bkeepers/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bkeepers/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bkeepers/subscriptions",
+    "organizations_url": "https://api.github.com/users/bkeepers/orgs",
+    "repos_url": "https://api.github.com/users/bkeepers/repos",
+    "events_url": "https://api.github.com/users/bkeepers/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bkeepers/received_events",
+    "type": "User",
+    "site_admin": true
+  },
+  "created_at": "2017-10-16T13:37:34Z",
+  "updated_at": "2017-10-16T13:37:34Z",
+  "author_association": "OWNER",
+  "body_html": "<p>Ohai <a href=\"https://github.com/octokit/node-github\">https://github.com/octokit/node-github</a></p>",
+  "body_text": "Ohai https://github.com/octokit/node-github",
+  "body": "Ohai https://github.com/octokit/node-github"
+}
