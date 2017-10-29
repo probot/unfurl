@@ -1,4 +1,4 @@
-getLinks = require('../lib/get-links')
+const getLinks = require('../lib/get-links')
 
 describe('get-links', () => {
   test('returns href for raw links', () => {
@@ -7,7 +7,7 @@ describe('get-links', () => {
       <a href="https://probot.github.io/">https://probot.github.io/</a>
     `)
 
-    expect(links).toEqual(["https://github.com/", "https://probot.github.io/"])
+    expect(links).toEqual(['https://github.com/', 'https://probot.github.io/'])
   })
 
   test('ignores links with custom anchor', () => {
@@ -17,5 +17,4 @@ describe('get-links', () => {
 
     expect(links).toEqual([])
   })
-
-});
+})
