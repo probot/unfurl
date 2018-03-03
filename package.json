@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "ejs": "^2.5.7",
+    "get-value": "~3.0.0",
+    "got": "~8.2.0",
     "jsdom": "^11.3.0",
+    "metascraper": "~3.9.2",
     "probot": "^2.0.0",
-    "probot-attachments": "github:probot/attachments",
-    "unfurl.js": "^1.1.6"
+    "probot-attachments": "github:probot/attachments"
   },
   "devDependencies": {
     "github": "^11.0.0",
