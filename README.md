@@ -1,7 +1,5 @@
 # unfurl
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/probot/unfurl.svg)](https://greenkeeper.io/)
-
 > a GitHub App built with [probot](https://github.com/probot/probot) that unfurls links on Issues and Pull Request discussions
 
 ![](https://user-images.githubusercontent.com/173/32036265-57a501ca-b9e4-11e7-9db3-52374fb7290c.png)
