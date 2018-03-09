@@ -1,0 +1,38 @@
+[
+    {
+        "scope": "http://philschatz.com:80",
+        "method": "GET",
+        "path": "/",
+        "body": "",
+        "status": 200,
+        "response": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en-us\">\n\n  <head>\n  <link href=\"http://gmpg.org/xfn/11\" rel=\"profile\">\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n\n  <!-- Enable responsiveness on mobile devices-->\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1\">\n\n  <title>\n    \n      Phil's Musings &middot; notes from a peripatetic programmer\n    \n  </title>\n\n  <!-- CSS -->\n  <link rel=\"stylesheet\" href=\"/public/css/poole.css\">\n  <link rel=\"stylesheet\" href=\"/public/css/syntax.css\">\n  <link rel=\"stylesheet\" href=\"/public/css/lanyon.css\">\n  <link rel=\"stylesheet\" href=\"/public/css/site.css\">\n  <link rel=\"stylesheet\" href=\"http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400\">\n\n  <!-- Icons -->\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"/public/apple-touch-icon-144-precomposed.png\">\n  <link rel=\"shortcut icon\" href=\"/public/favicon.ico\">\n\n  <!-- RSS -->\n  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"/atom.xml\">\n</head>\n\n\n  <body class=\"theme-base-0d\">\n\n    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular\n     styles, `#sidebar-checkbox` for behavior. -->\n<input type=\"checkbox\" class=\"sidebar-checkbox\" id=\"sidebar-checkbox\" checked=\"checked\"/>\n\n<!-- Toggleable sidebar -->\n<div class=\"sidebar\" id=\"sidebar\">\n  <div class=\"sidebar-item\">\n    <p>Projects I tinker with and lessons learned making beautiful, <a href=\"http://cnx.org\" target=\"_window\">free textbooks for the world</a></p>\n  </div>\n\n  <nav class=\"sidebar-nav\">\n    <a class=\"sidebar-nav-item active\" href=\"/\">Home</a>\n\n    \n\n    \n    \n      \n        \n      \n    \n      \n        \n          <a class=\"sidebar-nav-item\" href=\"/about/\">About</a>\n        \n      \n    \n      \n    \n      \n        \n          <a class=\"sidebar-nav-item\" href=\"/books/\">OpenStax Textbooks on GitHub</a>\n        \n      \n    \n      \n        \n      \n    \n      \n        \n          <a class=\"sidebar-nav-item\" href=\"/tags/\">Tags</a>\n        \n      \n    \n      \n    \n      \n        \n      \n    \n      \n        \n      \n    \n      \n        \n      \n    \n\n    <a class=\"sidebar-nav-item\" href=\"https://github.com/philschatz/octokat.js\">octokat.js <span class=\"comment\">feature-rich JS GitHub API client</span></a>\n    <a class=\"sidebar-nav-item\" href=\"/css-polyfills.js/\">css-polyfills.js",
+        "rawHeaders": [
+            "Server",
+            "GitHub.com",
+            "Date",
+            "Thu, 08 Mar 2018 04:36:38 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "33514",
+            "Connection",
+            "close",
+            "Vary",
+            "Accept-Encoding",
+            "Last-Modified",
+            "Mon, 15 May 2017 05:43:06 GMT",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Expires",
+            "Thu, 08 Mar 2018 04:46:38 GMT",
+            "Cache-Control",
+            "max-age=600",
+            "Accept-Ranges",
+            "bytes",
+            "X-GitHub-Request-Id",
+            "1B60:4589:2FD563B:4116FC0:5AA0BDD6"
+        ]
+    }
+]
