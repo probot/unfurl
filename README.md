@@ -4,6 +4,10 @@
 
 ![](https://user-images.githubusercontent.com/173/32036265-57a501ca-b9e4-11e7-9db3-52374fb7290c.png)
 
+## Install
+
+Install it by clicking [this link](https://probot.github.io/apps/unfurl-links/)
+
 ## Setup
 
 ```
