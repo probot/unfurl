@@ -12,16 +12,15 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "jsdom": "^11.3.0",
-    "probot": "^2.0.0",
+    "probot": "^6.0.0",
     "probot-attachments": "github:probot/attachments",
     "unfurl.js": "^1.1.6"
   },
   "devDependencies": {
-    "github": "^11.0.0",
-    "jest": "^21.2.1",
-    "localtunnel": "^1.8.2",
+    "jest": "^22.4.2",
     "nock": "^9.0.22",
-    "standard": "^10.0.3"
+    "smee-client": "^1.0.1",
+    "standard": "^11.0.0"
   },
   "engines": {
     "node": ">= 7.7.0",
