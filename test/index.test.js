@@ -10,22 +10,27 @@ const cacheManager = require('cache-manager')
 nock.disableNetConnect()
 nock.enableNetConnect(/127\.0\.0\.1/)
 
-test('it works', async () => {
-  // FIXME: move this and app setup below to a test harness
-  const cache = cacheManager.caching({store: 'memory'})
+let cache
+let app
+let robot
 
-  const app = () => 'jwt'
-  const robot = createRobot({app, cache})
+beforeEach(() => {
+  cache = cacheManager.caching({store: 'memory'})
+  app = () => 'jwt'
+  robot = createRobot({app, cache})
+  unfurl(robot)
 
   nock('https://api.github.com')
     .post('/installations/13055/access_tokens').reply(200, {token: 'test'})
+})
+
+test('unfurls comments', async () => {
+  nock('https://api.github.com')
     .get('/repos/robotland/test/issues/comments/336888903').reply(200, comment)
     .patch('/repos/robotland/test/issues/comments/336888903').reply(200)
   nock('https://github.com')
     .get('/octokit/node-github')
     .reply(200, repo)
-
-  unfurl(robot)
 
   await robot.receive({event: 'issue_comment', payload})
 })
