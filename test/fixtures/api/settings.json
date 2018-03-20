@@ -1,0 +1,18 @@
+{
+"name": "settings.yml",
+"path": "settings.yml",
+"sha": "7b43aea56012c70d728fbd82b7d96f160feda2dd",
+"size": 40,
+"url": "repos/knrt10/nock-test/contents/settings.yml?ref=master",
+"html_url": "github.com/knrt10/nock-test/blob/master/settings.yml",
+"git_url": "repos/knrt10/nock-test/git/blobs/7b43aea56012c70d728fbd82b7d96f160feda2dd",
+"download_url": "knrt10/nock-test:settings.yml@master (raw)",
+"type": "file",
+"content": "IyBhZGRpbmcgY29uZmlnIGZvciBteC11cmxzCgptYXhVcmwgOiAzCg==\n",
+"encoding": "base64",
+"_links": {
+"self": "repos/knrt10/nock-test/contents/settings.yml?ref=master",
+"git": "repos/knrt10/nock-test/git/blobs/7b43aea56012c70d728fbd82b7d96f160feda2dd",
+"html": "github.com/knrt10/nock-test/blob/master/settings.yml"
+}
+}
