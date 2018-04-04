@@ -19,8 +19,7 @@ const urls = {
     text: 'node-github - node library to access the GitHub API',
     thumb_url: 'https://avatars0.githubusercontent.com/u/3430433?s=400&v=4'
   },
-  
-  // Domain that returns relative author_icon 
+  // Domain that returns relative author_icon
   'https://www.npmjs.com/package/unfurl.js': {
     author_icon: 'https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png',
     author_name: 'npm',
