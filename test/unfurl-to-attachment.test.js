@@ -21,7 +21,7 @@ const urls = {
   },
 
   'https://www.npmjs.com/package/unfurl.js': {
-    author_icon: '/static/images/touch-icons/favicon-16x16.png',
+    author_icon: 'https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png',
     author_name: 'npm',
     fallback: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
     text: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
