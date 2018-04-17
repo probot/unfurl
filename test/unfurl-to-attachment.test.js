@@ -21,7 +21,7 @@ const urls = {
   },
 
   'https://www.npmjs.com/package/unfurl.js': {
-    author_icon: '/static/images/touch-icons/favicon-16x16.png',
+    author_icon: 'https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png',
     author_name: 'npm',
     fallback: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
     text: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
@@ -32,18 +32,20 @@ const urls = {
 
   // Domains with partial metadata
   'http://philschatz.com/': {
-    title: 'Phil\'s Musings · notes from a peripatetic programmer',
-    title_link: 'http://philschatz.com/',
-    thumb_url: '/public/favicon.ico'
+    author_icon: 'http://philschatz.com/public/apple-touch-icon-144-precomposed.png',
+    thumb_url: 'http://philschatz.com/public/apple-touch-icon-144-precomposed.png',
+    title: 'Phil’s Musings · notes from a peripatetic programmer',
+    title_link: 'http://philschatz.com/'
   },
 
   'https://etsy.com/': {
     fallback: 'Find handmade, vintage, and unique goods that express who you are.',
+    author_icon: 'https://www.etsy.com/images/favicon.ico',
     author_name: 'Etsy',
     title: 'Etsy.com | Shop for anything from creative people everywhere',
-    title_link: 'https://etsy.com/',
+    title_link: 'https://www.etsy.com',
     text: 'Find handmade, vintage, and unique goods that express who you are.',
-    thumb_url: '/images/favicon.ico'
+    thumb_url: 'https://www.etsy.com/images/favicon.ico'
   },
 
   'https://archive.org/': {
@@ -51,7 +53,7 @@ const urls = {
     title: 'Internet Archive: Digital Library of Free Books, Movies, Music & Wayback Machine',
     title_link: 'https://archive.org/',
     text: 'Internet Archive is a non-profit digital library offering free universal access to books, movies & music, as well as 321 billion archived web pages.',
-    thumb_url: 'https://archive.org/images/glogo.jpg'
+    thumb_url: 'https://archive.org/images/WaybackLogoSmall.png'
   },
 
   'https://github.com/philschatz': {
