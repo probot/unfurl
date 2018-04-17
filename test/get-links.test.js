@@ -17,4 +17,11 @@ describe('get-links', () => {
 
     expect(links).toEqual([])
   })
+
+  test('ignores links with email-fragment class at parent', () => {
+    const links = getLinks(`
+    <div class="email-fragment"><a href="https://etsy.com/">Lovingly hand crafted links</a></div>
+    `)
+    expect(links).toEqual([])
+  })
 })
