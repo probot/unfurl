@@ -24,4 +24,13 @@ describe('get-links', () => {
     `)
     expect(links).toEqual([])
   })
+
+  test('removes duplicate links', () => {
+    const links = getLinks(`
+      <a href="https://probot.github.io/">https://probot.github.io/</a>
+      <a href="https://probot.github.io/">https://probot.github.io/</a>
+    `)
+
+    expect(links).toEqual(['https://probot.github.io/'])
+  })
 })
