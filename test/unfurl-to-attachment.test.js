@@ -19,9 +19,9 @@ const urls = {
     text: 'node-github - node library to access the GitHub API',
     thumb_url: 'https://avatars0.githubusercontent.com/u/3430433?s=400&v=4'
   },
-
+  // Domain that returns relative author_icon. In this case author_icon will be returned as `/static/images/touch-icons/favicon-16x16.png`
   'https://www.npmjs.com/package/unfurl.js': {
-    author_icon: '/static/images/touch-icons/favicon-16x16.png',
+    author_icon: 'https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png',
     author_name: 'npm',
     fallback: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
     text: 'Scraper for oEmbed, Twitter Cards and Open Graph metadata - fast and Promise-based',
