@@ -12,12 +12,12 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "jsdom": "^11.3.0",
-    "probot": "^6.0.0",
+    "probot": "^7.1.2",
     "probot-attachments": "github:probot/attachments",
     "unfurl.js": "^1.1.6"
   },
   "devDependencies": {
-    "jest": "^22.4.2",
+    "jest": "^23.6.0",
     "nock": "^9.0.22",
     "smee-client": "^1.0.1",
     "standard": "^11.0.0"

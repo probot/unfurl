@@ -1,5 +1,5 @@
 const unfurl = require('..')
-const {createRobot} = require('probot')
+const { Application } = require('probot')
 const payload = require('./fixtures/issue_comment.created')
 const comment = require('./fixtures/api/comment')
 const repo = require('fs').readFileSync('./test/fixtures/html/repo.html').toString()
@@ -17,11 +17,11 @@ let robot
 beforeEach(() => {
   cache = cacheManager.caching({store: 'memory'})
   app = () => 'jwt'
-  robot = createRobot({app, cache})
+  robot = new Application({app, cache})
   unfurl(robot)
 
   nock('https://api.github.com')
-    .post('/installations/13055/access_tokens').reply(200, {token: 'test'})
+    .post('/app/installations/13055/access_tokens').reply(200, {token: 'test'})
 })
 
 test('unfurls comments', async () => {
@@ -32,5 +32,5 @@ test('unfurls comments', async () => {
     .get('/octokit/node-github')
     .reply(200, repo)
 
-  await robot.receive({event: 'issue_comment', payload})
+  await robot.receive({name: 'issue_comment', payload})
 })
