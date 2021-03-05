@@ -4,7 +4,7 @@
   "description": "",
   "author": "Brandon Keepers <bkeepers@github.com>",
   "license": "ISC",
-  "repository": "https://github.com/bkeepers/unfurl.git",
+  "repository": "github:probot/unfurl",
   "scripts": {
     "start": "probot run .",
     "test": "jest && standard"
